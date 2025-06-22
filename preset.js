@@ -1,9 +1,20 @@
 const ALL_CATEGORIES = [
-    "top1", "top2", "pants1", "pants2", "skirt1", "skirt2", 
-    "shoes1", "shoes2", "jacket1", "jacket2", "dress1", "dress2", 
-    "sweatshirt1", "sweatshirt2", "hat1", "hat2", "socks1", "socks2", 
-    "accessories", "leaf1", "leaf2", "topunderwear1", "bottomunderwear1","bottomunderwear2",
-    "boxers1", "boxers2", "onepiece1", "topunderwear2", "accessories1", "accessories2"
+   "bottomunderwear1", "bottomunderwear2",
+    "topunderwear1", "topunderwear2",
+    "onepiece1", "socks1", "socks2",
+    "boxers1", "boxers2",
+    "sweatshirt1", "sweatshirt2",
+	"glove1","glove2",
+    "shoes1","shoes2",
+    "pants1","pants2",
+	"belt2",
+	"boots1","boots2",
+    "skirt1", "skirt2",
+    "top1", "top2",
+    "dress1", "dress2",
+    "jacket1", "jacket2",
+    "accessories1", "accessories2",
+    "hat1", "hat2",
 ];
 
 function applyPreset1() {
