@@ -20,6 +20,7 @@ const ALL_CATEGORIES = [
 function applyPreset1() {
     hideSpecificCategories(ALL_CATEGORIES);
     showItems([
+	["boxers2_1.png", "boxers2"],
         ["jacket1_1.png", "jacket1"],
         ["top1_1.png", "top1"],
         ["glove1_1.png", "glove1"],
@@ -32,7 +33,7 @@ function applyPreset1() {
         ["sweatshirt2_1.png", "sweatshirt2"],
         ["bottomunderwear1_1.png", "bottomunderwear1"],
         ["topunderwear1_1.png", "topunderwear1"],
-        ["boxers2_1.png", "boxers"]
+        
     ]);
 }
 

@@ -37,10 +37,24 @@ let currentlySelectedItem = null;
 // Helper function to set z-index for categories
 function getZIndex(categoryName) {
     const zIndexMap = {
-        bottomunderwear: 3, topunderwear: 4, 
-        onepiece: 5, socks: 5, boxer: 6, sweatshirt: 7, 
-        shoe: 8, pants: 9, skirt: 10, top: 11, dress: 12, 
-        jacket: 13, accessories: 14, hat: 15 
+       
+  bottomunderwear: 1,
+  topunderwear: 2,
+  onepiece: 3,
+  socks: 4,
+  boxers: 5,
+  sweatshirt: 6,
+  glove: 7,
+  shoes: 8,
+  pants: 9,
+  belt: 10,
+  boots: 11,
+  skirt: 12,
+  top: 13,
+  dress: 14,
+  jacket: 15,
+  accessories: 16,
+  hat: 17
     };
     return zIndexMap[categoryName] || 0;
 }
