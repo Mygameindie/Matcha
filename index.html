@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Dress-Up Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="three_scroll_bar_style.css" />
+  <link rel="stylesheet" href="scroll.css" />
+</head>
+<body>
+  <div class="main-menu">
+    <img src="Mainmenu.png" alt="Main Menu Image" />
+    <button onclick="enterGame()">Play</button>
+  </div>
+
+  <div class="game-container">
+    <div class="base-container">
+      <img id="base-image" src="Base.png" alt="Base Image" />
+      <img id="base2-image" src="Base2.png" alt="Base 2" style="display: none;" />
+      <img id="base3-image" src="Base3.png" alt="Base 3" style="display: none;" />
+      <button class="small-button button-1" onclick="changeToBase2()"></button>
+      <button class="small-button button-2" onclick="changeToBase3()"></button>
+    </div>
+
+    <div class="controls">
+      <div class="combined-scroll-bar" id="presetScrollBar"></div>
+      <div class="combined-scroll-bar" id="categoryScrollBar"></div>
+      <div class="scrollable-buttons"></div>
+    </div>
+
+    <!-- 🎵 Music Controls -->
+    
+
+  <script src="script.js"></script>
+  <script src="preset.js"></script>
+  <script src="scrolls.js"></script>
+</body>
+</html>
